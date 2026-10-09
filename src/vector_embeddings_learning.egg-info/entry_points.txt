@@ -1,0 +1,2 @@
+[console_scripts]
+learn-embeddings = vector_learning.embed:main

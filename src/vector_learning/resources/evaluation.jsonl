@@ -1,0 +1,3 @@
+{"query":"What does cosine distance tell me about similarity between two embeddings?","relevant_keys":["cosine-distance","cosine-similarity"]}
+{"query":"How does an HNSW index make nearest-neighbor search faster?","relevant_keys":["hnsw-index","exact-search"]}
+{"query":"How are stable IDs assigned to chunks from local files?","relevant_keys":["raw/pgvector-basics.md#chunk-0002"]}

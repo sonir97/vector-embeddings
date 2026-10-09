@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vector-embeddings-learning"
+version = "0.1.0"
+description = "A hands-on project for learning text embeddings with Python and pgvector"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26,<3",
+    "pgvector>=0.3,<1",
+    "psycopg[binary]>=3.2,<4",
+    "sentence-transformers>=3.0,<6",
+]
+
+[project.scripts]
+learn-embeddings = "vector_learning.embed:main"
+vector-db-init = "vector_learning.db:main"
+vector-ingest = "vector_learning.ingest:main"
+vector-ingest-files = "vector_learning.ingest_files:main"
+vector-search = "vector_learning.search:main"
+vector-index-create = "vector_learning.index:main"
+vector-evaluate = "vector_learning.evaluate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"vector_learning.resources" = ["*.jsonl", "*.sql"]

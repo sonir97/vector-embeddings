@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/vector_embeddings_learning.egg-info/PKG-INFO
+src/vector_embeddings_learning.egg-info/SOURCES.txt
+src/vector_embeddings_learning.egg-info/dependency_links.txt
+src/vector_embeddings_learning.egg-info/entry_points.txt
+src/vector_embeddings_learning.egg-info/requires.txt
+src/vector_embeddings_learning.egg-info/top_level.txt
+src/vector_learning/__init__.py
+src/vector_learning/embed.py

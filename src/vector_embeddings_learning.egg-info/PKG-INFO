@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: vector-embeddings-learning
+Version: 0.1.0
+Summary: A hands-on project for learning text embeddings with Python and pgvector
+Requires-Python: >=3.10
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: sentence-transformers<6,>=3.0
