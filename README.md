@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Vector Embeddings with Python
 
 A hands-on project for learning how text embeddings work and how to store and search them with Python, PostgreSQL, and [pgvector](https://github.com/pgvector/pgvector).
@@ -178,3 +179,6 @@ CREATE TABLE documents (
 ```
 
 The first search will use exact cosine distance (`ORDER BY embedding <=> query_embedding LIMIT k`). We will add an HNSW index only after exact search is understood, then compare results and query plans. Model changes that alter embedding dimensions require a compatible column and re-embedding the stored corpus.
+=======
+# vector-embeddings
+>>>>>>> fe14c0bad0629e316056e0db3e6f8651123d5254
